@@ -2,20 +2,21 @@
 // Exercise 00_03
 // Using the exercise files on GitHub, by Eduardo Corpeño 
 
-#include <iostream>
+
+#include<iostream>
+using namespace std;
 
 int main(){
-    float num_1, num_2, result;
+    
+float num1, num2, result;
+cout<<"Enter in the first number: "<<flush;
+cin>>num1;
+cout<<"Enter in the second number: ";
+cin>>num2;
 
-    std::cout << "Enter number 1: " << std::flush;
-    std::cin >> num_1;
-    std::cout << "Enter number 2: " << std::flush;
-    std::cin >> num_2;
-    
-    result = num_1 + num_2;
-    
-    std::cout << "The result of the addition is " << result << std::endl;
-    
-    std::cout << std::endl << std::endl;
-    return (0);
+result = num1 + num2;
+
+cout<<num1 << " + "<< num2 << " = " << result;
+
+    return 0;
 }
